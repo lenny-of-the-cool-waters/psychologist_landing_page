@@ -1,17 +1,20 @@
 import Navigation from './components/Navigation'
 import Head from './components/Head'
+import Content from './components/Content'
+import Footer from './components/Footer'
 import './App.css';
 
 // Bootstrap importations
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-    <Container className="site">
+    <div className="site">
       <Navigation />
       <Head />
-    </Container>
+      <Content />
+      <Footer />
+    </div>
   )
 }
 

@@ -3,7 +3,7 @@ import './Head.css'
 
 const Head = () => {
     return (
-        <div className="container d-flex flex-row">
+        <div className="head-container d-flex flex-row">
             <div className="head_cont text-center ">
                 <div>
                     <p className="mini_title">PSYCHIATRIC AIDES</p>

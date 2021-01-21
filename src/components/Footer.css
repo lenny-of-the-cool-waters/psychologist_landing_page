@@ -1,0 +1,44 @@
+.footer_div {
+    background-color: rgb(20, 20, 20);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.contacts {
+    padding: 3vh;
+    font-size: 13px;
+    justify-self: flex-start;
+    flex-grow: 2;
+}
+
+.contact-location {
+    text-align: right;
+}
+
+.subscription {
+    align-self: center;
+    padding: 3vh;
+    flex-grow: 2;
+}
+
+form {
+    padding-top: 20px;
+}
+
+#user_email {
+    background-color: rgb(20, 20, 20);
+    color: seashell;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid seashell;
+    outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer_div {
+        flex-wrap: wrap;
+    }
+}
